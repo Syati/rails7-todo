@@ -1,0 +1,12 @@
+{
+  "name": "sh_mise",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "devcontainer",
+  "workspaceFolder":"/workspace/${localWorkspaceFolderBasename}",
+  "features": {
+    "./features/mise": {}
+  },
+  "remoteEnv": {
+    "PATH": "${containerEnv:PATH}:~/.local/bin/",
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mise",
+  "version": "1.0.0",
+  "name": "install mise",
+  "options": {
+    "ruby_version": {
+      "type": "string",
+      "description": "Specify version of ruby",
+      "proposals": [
+        "3.3"
+      ],
+      "default": "3.3"
+    }
+  }
+}
