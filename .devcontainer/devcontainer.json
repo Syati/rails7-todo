@@ -1,10 +1,16 @@
 {
-  "name": "sh_mise",
+  "name": "rails7-todo",
   "dockerComposeFile": "docker-compose.yml",
   "service": "devcontainer",
   "workspaceFolder":"/workspace/${localWorkspaceFolderBasename}",
   "features": {
-    "./features/mise": {}
+    "./features/mise": {},
+    "./features/postgres-client": {}
+  },
+  "containerEnv": {
+    "XDG_DATA_HOME": "/.jbdevcontainer/data",
+    "XDG_CONFIG_HOME": "/.jbdevcontainer/config",
+    "XDG_CACHE_HOME": "/.jbdevcontainer",
   },
   "remoteEnv": {
     "PATH": "${containerEnv:PATH}:~/.local/bin/",
