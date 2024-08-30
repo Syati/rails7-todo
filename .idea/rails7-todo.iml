@@ -8,9 +8,13 @@
       <sourceFolder url="file://$MODULE_DIR$/features" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp/cache" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="mise: 3.3.4" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.4.22, ruby-2.6.10-p210) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="logger (v1.6.0, mise: 3.3.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="matrix (v0.4.2, mise: 3.3.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-pop (v0.1.2, mise: 3.3.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="psych (v5.1.2, mise: 3.3.4) [gem]" level="application" />
   </component>
 </module>
