@@ -14,5 +14,6 @@
   },
   "remoteEnv": {
     "PATH": "${containerEnv:PATH}:~/.local/bin/",
-  }
+  },
+  "postCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
 }
